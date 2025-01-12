@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Cats</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #4C4A4A; /* Темно-серый */
+            color: #D9D9D9; /* Светло-серый */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #BA9471;
+            padding: 20px;
+            text-align: left;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #FFFFFF;
+            font-size: 2rem;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #FFFFFF;
+            margin: 0 25px; /* Увеличено расстояние между кнопками */
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        section {
+            padding: 60px 20px 20px;
+            margin-top: 80px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            margin: 15px;
+            border: 5px solid #BA9471;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .caption {
+            padding: 10px;
+            background-color: #4C4A4A;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        /* Мобильная адаптация */
+        @media (max-width: 600px) {
+            .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Super Cats</h1>
+        <nav>
+            <a href="#lourdes">Lourdes</a>
+            <a href="#suki-charbon">Suki and Charbon</a>
+            <a href="#ponochka">Ponochka</a>
+            <a href="#laffy">Laffy</a>
+            <a href="#molly-dog">Molly the dog</a>
+        </nav>
+    </header>
+
+    <!-- Раздел Lourdes -->
+    <section id="lourdes">
+        <h2>Lourdes</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cat1.jpg" alt="Lourdes Cat 1">
+                <div class="caption">Lourdes</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat2.jpg" alt="Lourdes Cat 2">
+                <div class="caption">Lourdes the cat</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat3.jpg" alt="Lourdes Cat 3">
+                <div class="caption">Pretty Lourdes</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat4.jpg" alt="Lourdes Cat 4">
+                <div class="caption">Lourdes mirroring</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел Suki and Charbon -->
+    <section id="suki-charbon">
+        <h2>Suki and Charbon</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cat5.jpg" alt="Suki and Charbon Cat 1">
+                <div class="caption">Suki or Charbon</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat6.jpg" alt="Suki and Charbon Cat 2">
+                <div class="caption">Nameless cat</div>
+</div>
+            <div class="gallery-item">
+                <img src="images/cat7.jpg" alt="Suki and Charbon Cat 3">
+                <div class="caption">Idk the name of this cat</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat8.jpg" alt="Suki and Charbon Cat 4">
+                <div class="caption">Dave's Suki or Charbon</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел Ponochka -->
+    <section id="ponochka">
+        <h2>Ponochka</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cat9.jpg" alt="Ponochka Cat 1">
+                <div class="caption">Ponochka</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat10.jpg" alt="Ponochka Cat 2">
+                <div class="caption">Поночка</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat11.jpg" alt="Ponochka Cat 3">
+                <div class="caption">Кошка Поночка</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat12.jpg" alt="Ponochka Cat 4">
+                <div class="caption">kitty</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел Laffy -->
+    <section id="laffy">
+        <h2>Laffy</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/cat13.jpg" alt="Laffy Cat 1">
+                <div class="caption">Meditation</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat14.jpg" alt="Laffy Cat 2">
+                <div class="caption">Meditation winter edition</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat15.jpg" alt="Laffy Cat 3">
+                <div class="caption">Laffy studies</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cat16.jpg" alt="Laffy Cat 4">
+                <div class="caption">Laffy</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел Molly the dog -->
+    <section id="molly-dog">
+        <h2>Molly the dog</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/dog1.jpg" alt="Molly the dog 1">
+                <div class="caption">Molly the dog</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/dog2.jpg" alt="Molly the dog 2">
+                <div class="caption">Molly cutie</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/dog3.jpg" alt="Molly the dog 3">
+                <div class="caption">Molly is not a cat</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/dog4.jpg" alt="Molly the dog 4">
+                <div class="caption">Slay Molly</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
